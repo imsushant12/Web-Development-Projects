@@ -1,0 +1,60 @@
+.flex
+{
+    display: flex;
+}
+
+.flex-1
+{
+    flex: 1;
+}
+
+.items-center
+{
+    align-items: center;
+}
+
+.justify-between
+{
+    justify-content: space-between;
+}
+
+.btn
+{
+    padding: 0.8rem 3rem;
+    font-size: 1rem;
+    font-weight: 700;
+    border: 2px solid transparent;
+    outline: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: all .3s ease;
+    text-decoration: none;
+}
+
+.btn-primary
+{
+    text-decoration: none;
+    background: transparent;
+    border-color: #3DCFD3;
+    color: #3DCFD3;
+}
+
+.btn-primary-2
+{
+    background: #3DCFD3;
+    text-decoration: none;
+    border-color:black;
+    color:black;
+}
+
+.btn-primary-2:hover
+{
+    background: black;
+    color: #3DCFD3;
+}
+
+.btn-primary:hover
+{
+    background: #3DCFD3;
+    color: black;
+}
