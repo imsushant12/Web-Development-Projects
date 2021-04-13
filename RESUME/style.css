@@ -1,0 +1,326 @@
+@import 'utility.css';
+
+body
+{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-font-smotthing: antialiased ;
+}
+
+.container .branding
+{
+    color:#3DCFD3;
+    font-size: 1.5rem;
+}
+
+.container .branding img
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 150px;
+    width: 80x;
+}
+
+header
+{
+    background-color: black;
+    clip-path: polygon(0 0 , 100% 0 , 100% 100% , 77% 87% , 0 100%);
+}
+
+.front .left
+{
+    max-height: 5%;
+    max-width: 5%;
+}
+
+.container
+{
+    max-width: 1152px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+header nav .left a
+{
+    color:#FFFFFF;
+    text-decoration: none;
+    margin-right: 5rem;
+    text-transform: uppercase;
+    transition: all .3s ease;
+}
+
+header nav .left a:hover
+{
+    color: #3DCFD3;
+}
+
+header nav
+{
+    padding :2rem 0;
+}
+
+header nav .branding
+{
+    margin-right: 8rem;
+}
+
+.front .left img
+{
+    width: 500px;
+    height: 500px;
+    margin: 0 0;
+    padding: 0;
+    opacity: 0.1;
+}
+
+.front .right
+{
+    color: #FFFFFF;
+    margin-top: -5rem;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.front .right h6
+{
+    text-transform: inherit;
+    font-size: 3.5rem;
+    color: #52c5c9;
+    text-align: center;
+    margin-bottom: 0.8rem;
+}
+
+.front .right h1
+{
+    padding-top: 2px;
+    padding-bottom: 15px;
+    color: white;
+    font-size: 1.4rem;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.front .right p
+{
+    color: white;
+    font-weight: 400;
+    line-height: 2;
+}
+
+.front .right p.mail
+{
+    color:white;
+    font-weight: 450;
+    margin-top: 2rem;
+}
+
+section 
+{
+    padding: 10rem 0;
+}
+
+section.about h1
+{
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 2.5rem;
+    color: black;
+    font-weight: 800;
+}
+
+section.about h1 span
+{
+    color:#3DCFD3
+}
+
+section.about h3
+{
+    color: black;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    font-weight: 700;
+}
+
+section.about p
+{
+    color: black;
+    line-height: 1.8;
+    margin-bottom: 1.3rem;
+}
+
+section.about .social a
+{   
+    color: black;
+    margin-right: 7px; 
+}
+
+section.achievements
+{
+    background-color:black;
+    clip-path: polygon(0 0 , 100% 0 , 100% 100% , 77% 87% , 0 100%);
+}
+
+section.achievements a
+{
+    text-decoration: none;
+    color:#3DCFD3;
+    font-weight: 300;
+}
+
+
+section.achievements h1 span
+{
+    font-size: 2.2rem;
+    font-weight: 800;
+    color:#FFFFFF;
+    margin-bottom: 3rem;
+}
+
+
+section.achievements h1
+{
+    font-size: 2.2rem;
+    font-weight: 800;
+    margin-bottom: 3rem;
+    color:#3DCFD3;
+    margin-right: 2.5em;
+    text-align: center;
+}
+
+
+section.projects h1
+{
+    text-align: center;
+    color: black;
+    margin-bottom: 2rem;
+    font-size: 3rem;
+    font-weight: 800;
+}
+
+section.projects h1 span
+{
+    color:#3DCFD3
+}
+section.projects p
+{
+    color: black;
+    font-size:1.25rem;
+    line-height: 1;
+    text-decoration: none;
+}
+
+section.projects p a
+{
+    font-size: 1.5rem;
+    color:#3DCFD3;
+    line-height: 1.8;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+
+section.contact
+{
+    background-color: black;
+}
+
+section.contact h1
+{
+    font-size: 2.6rem;
+    font-weight: 800;
+    margin-bottom: 5rem;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+
+section.contact h1 span
+{
+    font-size: 2.6rem;
+    font-weight: 800;
+    margin-bottom: 3rem;
+    color:#3DCFD3;
+    text-align: center;
+}
+
+section.contact .input-wrap
+{
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    grid-gap: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+section.contact .input-wrap-2
+{
+    display: flex;
+    flex-direction: column;
+}
+
+section.contact .input-wrap-2 input
+{
+    margin-bottom: 2rem;
+}
+
+section.contact input
+{
+    padding: 0.5rem;
+    font-size: 0.8rem;
+    border: 3px solid #3DCFD3;
+}
+
+section.contact .input-wrap-2 textarea
+{
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 3px solid #3DCFD3;
+    color: black;
+}
+
+section.contact input:focus , section.contact .input-wrap-2 textarea:focus
+{
+    outline: none;
+}
+
+section.contact .btn-wrapper
+{
+    text-align: center;
+    margin-top: 2rem;
+}
+
+footer
+{
+    background-color: black;
+    text-align: center;
+    color: #3DCFD3;
+    padding-bottom: 2rem;
+}
+
+.center 
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 250px;
+    width: 100x;
+}
+
+footer .footer-socials img
+{
+    font-size: 1rem;
+    padding: 0.5rem;
+    color: #3DCFD3;
+}
+
+footer .copyright a
+{
+    text-decoration: none;
+}
