@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Restaurant</title>
+
+    <style>
+        /*Styling the body by providing backgroun image and its width+height*/
+        body {
+            font-family: latha;
+            width: 100%;
+            height: 100vh;
+            background: url(back.png);
+            /*Image Link:
+          	https://media.geeksforgeeks.org/wp-content/uploads/20210404233256/back1-300x120.jpg*/
+        }
+
+        /*Styling the box that contains navigation menu*/
+        .box {
+            width: 900px;
+            float: right;
+        }
+
+        /*Styling the lists of the box*/
+        .box ul li {
+            width: 120px;
+            float: left;
+            margin: 10px auto;
+            text-align: center;
+        }
+
+        /*Styling the anchor tags of the box*/
+        .box ul li a {
+            text-decoration: none;
+            color: white;
+            font-weight: 525;
+        }
+
+        /*Styling the hover effect around the box*/
+        .box ul li:hover {
+            background-color: green;
+        }
+
+        /*Styling the hover effect around the box*/
+        .box ul li a:hover {
+            color: white;
+        }
+
+        /*Styling the box of the details class that will contain details for booking*/
+        .details {
+            width: 300px;
+            height: 550px;
+            background-color: black;
+            opacity: 0.85;
+            padding: 55px;
+        }
+
+        /*Styling the details class's header i.e. Welcome*/
+        .details h1 {
+            text-align: center;
+            text-transform: uppercase;
+            font-weight: 100px;
+            color: bisque;
+        }
+
+        /*Styling the details class's text*/
+        .details h4 {
+            text-align: justify;
+            color: bisque;
+            font-weight: normal;
+        }
+
+        /*Styling the details class's sub-heading i.e. Welcome*/
+        .details h2 {
+            text-align: center;
+            text-transform: uppercase;
+            font-weight: normal;
+            margin: 40px auto;
+            color: bisque;
+        }
+
+        /*Styling the form button*/
+        .opt a{
+            text-decoration: none;
+            width: 100px;
+            text-align: center;
+            font-size: 2rem;
+            color: white;
+            margin-left: 75px;
+        }
+
+        /*Styling the hover effect around the button*/
+        .opt a:hover {
+            background-color: green;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <ul type="none">
+            <li><a href="#"> Home</a></li>
+            <li><a href="menu.html"> Menu</a></li>
+            <li><a href="form.html"> Order Online</a></li>
+            <li><a href="feedback.html"> Feedback</a></li>
+            <li><a href="#"> Contact</a></li>
+        </ul>
+    </div>
+
+    <div class="details">
+        <h1> Welcome!</h1>
+
+        <h4>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque voluptatem aliquam, corrupti quam id porro
+            labore. Laudantium asperiores quisquam culpa, aliquam incidunt quasi iusto. Labore ab velit architecto
+            magni, repellat odio magnam. Veritatis doloremque sed est itaque iure. Veritatis cum molestiae nulla
+            eligendi voluptas nemo dolore corporis eaque aliquam iusto, numquam voluptate maiores sint sapiente culpa?
+            Quidem, delectus. Numquam omnis fuga optio vel nesciunt rerum.
+        </h4>
+
+        <h2>Reservation</h2>
+
+        <div class="opt">
+            <a href="form.html">Book Now</a>
+        </div>
+    </div>
+
+</body>
+
+</html>
