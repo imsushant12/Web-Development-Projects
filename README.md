@@ -1,4 +1,16 @@
-# Web Development Projects
+
+# Web Development Projects 🌐
+
+#### This repository contains basics to advanced Web Development Projects.
+
+## Tech Stacks used in these projects👨‍💻
+- HTML
+- CSS
+- BootStrap
+- JavaScript
+- React
+- Node.js
+- MongoDB
 
 ## 👨‍💻 Projects
 - [Analog Clock using Date() Object in JS](/Analog_Clock)
