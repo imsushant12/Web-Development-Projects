@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mario Animation</title>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap" rel="stylesheet">
+    <link rel="icon" href="https://img.icons8.com/doodle/48/000000/super-mario.png" type="image/x-icon">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .marioBaground {
+            width: 100%;
+            height: 100vh;
+            background: url("media/background.jpg")no-repeat;
+            background-size: 100% 100%;
+            position: relative;
+        }
+
+        .mario img {
+            position: absolute;
+            bottom: 50px;
+            animation-name: mario-run;
+            animation-duration: 6s;
+            animation-iteration-count: 5;
+            animation-timing-function: linear;
+        }
+
+        @keyframes mario-run {
+            0% {
+                left: 0;
+            }
+
+            100% {
+                left: 88%;
+            }
+        }
+
+        h2 {
+            color: rgb(19, 17, 17);
+            font-size: 2rem;
+            animation: mario-text 5s linear;
+            animation-delay: 1s;
+            animation-iteration-count: 5;
+            position: absolute;
+            left: 25%;
+            top: 25%;
+            font-family: 'Akaya Telivigala', cursive;
+        }
+
+        @keyframes mario-text {
+            0% {
+                font-size: 3rem;
+            }
+
+            100% {
+                font-size: 5rem;
+                left: 40%
+            }
+        }
+
+    </style>
+
+</head>
+
+<body>
+    <div class="marioBaground">
+        <div class="mario">
+            <!--We are using a gif above the background image-->
+            <img src="media/mario-gif.gif" width="150px">
+            <h2>RUN MARIO RUN</h2>
+        </div>
+    </div>
+</body>
+
+</html>

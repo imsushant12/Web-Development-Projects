@@ -1,51 +1,47 @@
-body
-{
-    display : flex;
-    justify-content : center;
+* {
+  margin: 0;
+  padding: 0;
+  font-family: cursive;
 }
 
-.container
-{
-    margin-top : 5%;
-    width : 450px;
+body {
+  display: flex;
+  justify-content: center;
 }
 
-.screen
-{
-    background : rgb(2, 2, 43);
-    padding : 20px;
-    width : 100%;
-    color : white;
-    font-size : 60px;
-    border: none;
+.container {
+  margin-top: 5%;
+  width: 35%;
 }
 
-.buttons
-{
-    display: flex;
-    flex-wrap: wrap;
-    
-}
-button
-{
-    flex : 22%;
-    font-size : 64px;
-    border :  1px solid black;
-
+.screen {
+  background: rgb(2, 2, 43);
+  padding: 20px;
+  width: 92.5%;
+  color: white;
+  font-size: 60px;
+  border: none;
 }
 
-.btn
-{
-    background : orange;
-    color : white;
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+}
+button {
+  flex: 22%;
+  font-size: 64px;
+  border: 1px solid black;
 }
 
-.btn-green
-{
-    background-color : green;
+.btn {
+  background: orange;
+  color: white;
 }
 
-.btn-red
-{
-    background-color : red;
+.btn-green {
+  background-color: green;
+}
+
+.btn-red {
+  background-color: red;
 }

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Music</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="https://img.icons8.com/doodle/48/000000/headphones--v1.png" type="image/x-icon">
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        .container {
+            height: 100vh;
+            width: 100%;
+            background-image: url(media/background.jpg);
+            background-size: cover;
+            background-position: center;
+            position: relative;
+        }
+
+        .nav li {
+            float: right;
+            list-style: none;
+        }
+
+        .nav a {
+            list-style: none;
+            height: 50px;
+            line-height: 50px;
+            font-size: 1rem;
+            font-weight: 550;
+            display: block;
+            padding: 5px 35px;
+            color: black;
+            text-decoration: none;
+        }
+
+        .content {
+            width: 100%;
+            position: absolute;
+            top: 45%;
+        }
+
+        .left-col {
+            margin-left: 21%;
+        }
+
+        .left-col h1 {
+            font-size: 50px;
+            color: crimson;
+        }
+
+        .right-col {
+            float: right;
+            margin-right: 10%;
+            margin-top: -5%;
+            display: flex;
+            align-items: center;
+        }
+
+        .right-col p {
+            font-size: 21px;
+            color: black;
+            font-weight: 650;
+            margin-right: 20px;
+        }
+
+        #icon {
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <ul class="nav">
+            <li><a href="/index.html">CONTACT</a></li>
+            <li><a href="/index.html">ABOUT</a></li>
+            <li><a href="/index.html">ARTISTS</a></li>
+            <li><a href="/index.html">MUSIC</a></li>
+            <li><a href="/index.html">HOME</a></li>
+        </ul>
+    </div>
+
+    <div class="content">
+        <div class="left-col">
+            <h1>MY <br> SOUNDS</h1>
+        </div>
+
+        <div class="right-col">
+            <p>Click Here To Listen</p>
+            <img src="media/play.png" id="icon">
+        </div>
+    </div>
+
+    <audio id="mysound">
+        <source src="media/music.mp3" type="audio/mp3">
+    </audio>
+
+    <script>
+        var mysound = document.getElementById("mysound");
+        var icon = document.getElementById("icon");
+
+        icon.onclick = function () {
+            if (mysound.paused) {
+                mysound.play();
+                icon.src = "media/pause.png";
+            }
+            else {
+                mysound.pause();
+                icon.src = "media/play.png";
+            }
+        }
+    </script>
+
+</body>
+
+</html>
