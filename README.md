@@ -23,7 +23,7 @@
 - [Music Player](/Music_Player)
 - [My Portfolio](/My_Portfolio)
 - [Notes Saver](/Note_Taker)
-- [Parallax-Effect Webpage](Parallax_Effect_Webpage)
+- [Parallax-Effect Webpage](/Parallax_Effect_Webpage)
 - [Portfolio Website (Non Responsive)](/Portfolio-Non_Responsive)
 - [Portfolio Website using Only HTML](/Portfolio-Only_HTML)
 - [SEARCHY : A search engine powered by the Wikipedia API](/Searchy-Search_Engine)
