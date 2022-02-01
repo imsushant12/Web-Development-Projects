@@ -1,0 +1,16 @@
+.text-changer{
+    font-family:  monospace;
+}
+
+.btn-outline-dark {
+    padding: 0.22rem;
+    font-family:  monospace;
+}
+
+.border{
+    border-radius: 0.35rem;
+}
+
+.alert{
+    padding: 0.25rem;
+}
