@@ -22,6 +22,7 @@
 - [Mario Starting Running Animation](/Mario_Run_Animation)
 - [Music Player](/Music_Player)
 - [My Portfolio](/My_Portfolio)
+- [NewsTeller: A News Telling React App built using NEWS API](/news_teller)
 - [Notes Saver](/Note_Taker)
 - [Parallax-Effect Webpage](/Parallax_Effect_Webpage)
 - [Portfolio Website (Non Responsive)](/Portfolio-Non_Responsive)
