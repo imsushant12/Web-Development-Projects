@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "CloudNote",
+  "name": "CloudNote is a secure React WebApp that saves your Notes on the cloud.",
   "icons": [
     {
       "src": "favicon.ico",
