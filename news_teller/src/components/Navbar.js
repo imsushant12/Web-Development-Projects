@@ -1,17 +1,19 @@
 import React, { Component } from "react";
 import "../App.css";
-
-
+import { Link } from "react-router-dom";
 export class Navbar extends Component {
   render() {
     return (
       <div>
-        <nav className="text-changer2 navbar navbar-expand-lg navbar-light bg-dark2">
-          <a className="text-white navbar-brand btn btn-outline-info" href="/">
+        <nav className="text-changer2 fixed-top navbar navbar-expand-lg navbar-light bg-dark2">
+          <Link
+            className="text-white navbar-brand btn btn-outline-info mr-5"
+            to="/"
+          >
             NewsTeller
-          </a>
+          </Link>
           <button
-            className=" text-white navbar-toggler"
+            className="text-white navbar-toggler"
             type="button"
             data-toggle="collapse"
             data-target="#navbarSupportedContent"
@@ -22,72 +24,72 @@ export class Navbar extends Component {
             <span className="navbar-toggler-icon"></span>
           </button>
 
-          {/* <div className="collapse navbar-collapse" id="navbarSupportedContent">
+          <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav text-changer mr-auto">
               <li className="nav-item">
-                <a
-                  className="nav-link ml-5 text-white mx-2 text-changer2"
-                  href="/business"
+                <Link
+                  className="nav-link text-white mx-2 text-changer2"
+                  to="/business"
                 >
                   Business
-                </a>
+                </Link>
               </li>
 
               <li className="nav-item">
-                <a
+                <Link
                   className="nav-link text-white mx-2 text-changer2"
-                  href="/entertainment"
+                  to="/entertainment"
                 >
                   Entertainment
-                </a>
+                </Link>
               </li>
 
               <li className="nav-item">
-                <a
+                <Link
                   className="nav-link text-white mx-2 text-changer2"
-                  href="/general"
+                  to="/general"
                 >
                   General
-                </a>
+                </Link>
               </li>
 
               <li className="nav-item">
-                <a
+                <Link
                   className="nav-link text-white mx-2 text-changer2"
-                  href="/health"
+                  to="/health"
                 >
                   Health
-                </a>
+                </Link>
               </li>
 
               <li className="nav-item">
-                <a
+                <Link
                   className="nav-link text-white mx-2 text-changer2"
-                  href="/science"
+                  to="/science"
                 >
                   Science
-                </a>
+                </Link>
               </li>
 
               <li className="nav-item">
-                <a
+                <Link
                   className="nav-link text-white mx-2 text-changer2"
-                  href="/sports"
+                  to="/sports"
                 >
                   Sports
-                </a>
+                </Link>
               </li>
 
               <li className="nav-item">
-                <a
+                <Link
                   className="nav-link text-white mx-2 text-changer2"
-                  href="/technology"
+                  to="/technology"
                 >
                   Technology
-                </a>
+                </Link>
               </li>
             </ul>
-          </div> */}
+          </div>
         </nav>
       </div>
     );
