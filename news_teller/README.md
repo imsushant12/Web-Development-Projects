@@ -26,6 +26,6 @@ NewsTeller covers wide variety of categories such as - business,
 
 ---
 
-![](output.png)
+![](./output.png)
 
 ---
