@@ -6,6 +6,11 @@
   font-family: monospace;
 }
 
-.bg-dark2{
+.bg-dark2 {
   background-color: #1f2327;
+}
+
+.top-margin {
+  margin-top: 7.5rem;
+  margin-bottom: 2.5rem;
 }
