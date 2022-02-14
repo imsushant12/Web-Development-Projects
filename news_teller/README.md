@@ -8,7 +8,7 @@
 
 ---
 
-The NewsTeller Application uses the [NewsAPI](https://newsapi.org/), fetching news.
+The NewsTeller Application uses the [NewsAPI](https://newsapi.org/), for fetching the news.
 
 ---
 
