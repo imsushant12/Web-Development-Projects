@@ -1,7 +1,8 @@
 import React, { Component } from "react";
+import "../App.css";
 import NewsComponent from "./NewsComponent";
 import Spinner from "./Spinner";
-import PropTypes from 'prop-types';
+import PropTypes from "prop-types";
 
 export class News extends Component {
   // setting default props
@@ -43,7 +44,7 @@ export class News extends Component {
   render() {
     return (
       <div className="container my-3">
-        <h3 className="text-white my-5 text-changer text-center">
+        <h3 className="text-white text-changer text-center top-margin">
           NewsTeller - Get your Daily Dose of News!
         </h3>
 
